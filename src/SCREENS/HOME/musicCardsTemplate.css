@@ -1,0 +1,39 @@
+/* Banner Section */
+.banner-section {
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  gap: 0px;
+}
+
+.banner-scroll-container {
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+/* .banner-scroll-container::-webkit-scrollbar {
+  height: 0px;
+}
+
+.banner-scroll-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.banner-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+/* Songs Section */
+.songs-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensures even spacing between cards */
+  gap: 20px; /* Adjust spacing between cards */
+  padding: 40px;
+  box-sizing: border-box;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the flex container */
+}
+

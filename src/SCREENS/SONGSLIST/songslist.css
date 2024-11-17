@@ -1,0 +1,75 @@
+.songs-list-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(45deg, #e66465, #9198e5); */
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .songs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .songs-list-title {
+    font-size: 2rem;
+  }
+  
+  .add-song-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .add-song-button:hover {
+    background-color: #45a049;
+  }
+  
+  .songs-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .song-item:hover {
+    transform: scale(1.01);
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .song-actions button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .song-actions .delete-button {
+    background-color: #f44336;
+  }
+  
+  .song-actions button:hover {
+    opacity: 0.8;
+  }
+  

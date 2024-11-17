@@ -1,0 +1,12 @@
+.home-container {
+    display: flex;
+    /* height: 100vh; */
+  }
+  
+  .content {
+    width: calc(100% - 250px); /* Calculate the remaining width after subtracting sidebar */
+    padding: 20px;
+    overflow-y: auto;
+    margin-left: 250px; /* Ensure there’s no overlap, since sidebar is fixed */
+  }
+  

@@ -1,0 +1,133 @@
+/* Sidebar Container */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5); /* Black to White Gradient */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden; /* Ensures no overflow issues */
+    border-right: 1px solid #ffffff;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    flex-shrink: 0; /* Prevents collapsing */
+    border-bottom: 1px solid #ffffff;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #ffffff; /* White border for contrast */
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; /* White text color for contrast */
+}
+
+/* Menu Section */
+.menu-section {
+    flex: 1; /* Allows this section to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 20px;
+    overflow-y: auto; /* Scroll if content overflows */
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #ffffff; /* White text for menu items */
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 1px solid #ffffff;
+}
+
+.menu-item:hover,
+.menu-item.active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.menu-icon {
+    font-size: 20px;
+}
+
+/* Signout Section */
+.signout-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* border-top: 1px solid #2e2e4e; */
+    flex-shrink: 0; /* Ensures it doesn’t collapse */
+}
+
+
+.signout-section .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: linear-gradient(#e66465, #9198e5);
+    text-decoration: none;
+    color: #ffffff; /* White color for readability */
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+
+.signout-section .menu-item:hover {
+    color: #ff4d4d; /* Red hover color for the signout item */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .profile-picture {
+        width: 60px;
+        height: 60px;
+    }
+
+    .username {
+        font-size: 16px;
+    }
+
+    .menu-item {
+        font-size: 14px;
+    }
+
+    .menu-icon {
+        font-size: 18px;
+    }
+}

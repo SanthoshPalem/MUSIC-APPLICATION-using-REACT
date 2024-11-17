@@ -1,0 +1,38 @@
+/* Global Styles */
+/* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: 'Arial', sans-serif; /* Change to your preferred font */
+  background: linear-gradient(#e66465, #9198e5);
+  background-size: cover; /* Ensures the gradient fills the screen */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-attachment: fixed; /* Keeps the background fixed as you scroll */
+  height: 100%; /* Makes sure the body height covers the entire document */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #333; /* Default text color */
+  padding: 20px; /* Optional: Adds some spacing around content */
+  color: #ffffff;
+}
+
+/* For Full Page Height */
+/* html,
+body {
+  height: 100%;
+}
+
+/* Add padding for your main container if needed */
+/* .main-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1;
+} */ 
