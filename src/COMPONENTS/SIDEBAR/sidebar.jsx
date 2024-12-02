@@ -32,10 +32,7 @@ const Sidebar = () => {
           <FaHeart className="menu-icon" />
           <span>Liked Songs</span>
         </NavLink>
-        <NavLink to="/playlist" className="menu-item" activeClassName="active">
-          <FaMusic className="menu-icon" />
-          <span>Playlists</span>
-        </NavLink>
+    
         <NavLink to="/songslist" className="menu-item" activeClassName="active">
           <FaList className="menu-icon" />
           <span>Songs List</span>

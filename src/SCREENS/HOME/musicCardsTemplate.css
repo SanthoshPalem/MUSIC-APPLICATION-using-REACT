@@ -1,39 +1,60 @@
+/* Main container */
+.music-cards-template {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 /* Banner Section */
 .banner-section {
   width: 100%;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
   display: flex;
-  gap: 0px;
+  justify-content: start;
 }
 
 .banner-scroll-container {
   display: flex;
-  scroll-behavior: smooth;
+  gap: 20px;
 }
 
-/* .banner-scroll-container::-webkit-scrollbar {
-  height: 0px;
+/* Default Songs Section */
+.default-songs-section {
+  padding: 20px;
 }
 
-.banner-scroll-container::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
+.default-songs-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
-.banner-scroll-container::-webkit-scrollbar-thumb:hover {
-  background: #555;
-} */
-
-/* Songs Section */
-.songs-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; /* Ensures even spacing between cards */
-  gap: 20px; /* Adjust spacing between cards */
-  padding: 40px;
-  box-sizing: border-box;
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto; /* Centers the flex container */
+.song-cards-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 cards in a row */
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
+.song-cards-row .music-card {
+  /* Add card styling here if needed */
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+/* Dynamic Songs Section */
+.dynamic-songs-section {
+  padding: 20px;
+}
+
+.dynamic-songs-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.dynamic-songs-section .song-cards-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards in a row */
+  gap: 20px;
+  margin-bottom: 20px;
+}

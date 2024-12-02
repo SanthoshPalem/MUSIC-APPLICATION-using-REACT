@@ -9,7 +9,7 @@ const Songslist = () => {
 
   // Fetch songs from JSON server
   useEffect(() => {
-    axios.get('http://localhost:3003/songs')
+    axios.get('http://localhost:3000/songs')
       .then((response) => setSongs(response.data))
       .catch((error) => console.error('Error fetching songs:', error));
   }, []);
@@ -20,7 +20,7 @@ const Songslist = () => {
   };
 
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:3003/songs/${id}`)
+    axios.delete(`http://localhost:3000/songs/${id}`)
       .then(() => {
         setSongs(songs.filter((song) => song.id !== id)); // Update the state after deletion
         alert(`Song with ID: ${id} deleted successfully.`);

@@ -1,82 +1,111 @@
-/* General Styles */
+/* Styling for the SearchScreen */
 .search-screen {
-    padding: 1rem;
-  }
-  
-  /* Search Bar Styles */
-  .search-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-  
-  .search-input {
-    width: 100%;
-    max-width: 48rem; /* max width of input */
-    padding: 0.75rem;
-    border: 2px solid #e2e8f0; /* Light gray border */
-    border-radius: 0.75rem;
-    outline: none;
-    transition: all 0.3s ease;
-  }
-  
-  .search-input:focus {
-    border-color: #3b82f6; /* Blue border on focus */
-    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3); /* Blue glow */
-  }
-  
-  .search-button {
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: #3b82f6; /* Blue background */
-    color: white;
-    border-radius: 0.75rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .search-button:hover {
-    background-color: #2563eb; /* Darker blue on hover */
-  }
-  
-  /* Song Cards Layout */
-  .song-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Responsive grid */
-    gap: 1.5rem;
-  }
-  
-  .song-card {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .song-card:hover {
-    transform: translateY(-5px); /* Lift effect */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  .song-image {
-    width: 100%;
-    height: 12rem; /* Fixed height */
-    object-fit: cover;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .song-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #1f2937; /* Dark gray */
-    margin-bottom: 0.5rem;
-  }
-  
-  .song-artist {
-    font-size: 1rem;
-    color: #6b7280; /* Gray */
-  }
-  
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: linear-gradient(#e66465, #9198e5);
+  min-height: 100vh;
+}
+
+/* Search bar container */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 60%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Search results container */
+.search-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Results grid container */
+.results-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards to the next line if they don't fit */
+  gap: 20px; /* Space between cards */
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual card styling */
+.music-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.music-card:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
+.music-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.music-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.music-card-artist {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.music-card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music-card-actions button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.music-card-actions button:hover {
+  background-color: #0056b3;
+}

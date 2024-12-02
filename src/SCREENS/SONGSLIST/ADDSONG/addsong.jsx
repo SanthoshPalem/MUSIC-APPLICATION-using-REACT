@@ -9,20 +9,22 @@ const Addsong = () => {
   const [artistName, setArtistName] = useState('');
   const [songUrl, setSongUrl] = useState('');
   const [songImage, setSongImage] = useState(''); // State for image URL
+  const [genre, setGenre] = useState(''); // State for genre
 
   const handleSave = (e) => {
     e.preventDefault();
 
-    // Create the new song object
+    // Create the new song object with genre
     const newSong = {
       title: songName,
       artist: artistName,
       url: songUrl,
       imageUrl: songImage, // Add the image URL
+      genre: genre, // Add the genre
     };
 
     // Post data to JSON server
-    axios.post('http://localhost:3003/songs', newSong)
+    axios.post('http://localhost:3000/songs', newSong)
       .then(() => {
         alert('Song details saved successfully!');
         navigate('/songslist'); // Navigate to the Songslist component after saving
@@ -86,6 +88,18 @@ const Addsong = () => {
             placeholder="Enter song image URL"
             value={songImage}
             onChange={(e) => setSongImage(e.target.value)} // Update songImage state
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="genre">Genre:</label>
+          <input
+            type="text"
+            id="genre"
+            placeholder="Enter genre"
+            value={genre}
+            onChange={(e) => setGenre(e.target.value)} // Update genre state
             required
           />
         </div>

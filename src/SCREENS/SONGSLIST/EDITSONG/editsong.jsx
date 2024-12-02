@@ -11,6 +11,7 @@ const Editsong = ({ songDetails }) => {
   const [artistName, setArtistName] = useState(songDetails?.artist || '');
   const [songUrl, setSongUrl] = useState(songDetails?.url || '');
   const [songImage, setSongImage] = useState(songDetails?.imageUrl || '');
+  const [genre, setGenre] = useState(songDetails?.genre || ''); // State for genre
   const [previewImage, setPreviewImage] = useState(songDetails?.imageUrl || null);
 
   const handleImageUrlChange = (e) => {
@@ -22,17 +23,18 @@ const Editsong = ({ songDetails }) => {
   const handleSave = (e) => {
     e.preventDefault();
 
-    // Updated song details
+    // Updated song details with genre
     const updatedSong = {
       title: songName,
       artist: artistName,
       url: songUrl,
       imageUrl: songImage, // Use the URL for the song image
+      genre: genre, // Add the genre to the updated song object
     };
 
     // Save to the backend
     axios
-      .put(`http://localhost:3003/songs/${songDetails.id}`, updatedSong)
+      .put(`http://localhost:3000/songs/${songDetails.id}`, updatedSong)
       .then(() => {
         alert('Song details updated successfully!');
         navigate('/songslist'); // Navigate to song list after saving
@@ -78,6 +80,18 @@ const Editsong = ({ songDetails }) => {
             placeholder={songDetails?.imageUrl || 'Enter image URL'}
           />
           {previewImage && <img src={previewImage} alt="Preview" className="image-preview" />}
+        </div>
+
+        {/* Genre field */}
+        <div className="form-group">
+          <label>Genre:</label>
+          <input
+            type="text"
+            value={genre}
+            onChange={(e) => setGenre(e.target.value)} // Update genre state
+            placeholder={songDetails?.genre || 'Enter genre'}
+            required
+          />
         </div>
 
         <div className="form-actions">

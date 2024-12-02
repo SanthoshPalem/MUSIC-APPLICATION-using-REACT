@@ -1,3 +1,174 @@
 {
-  "songs": []
+  "songs": [
+    {
+      "id": "af9e",
+      "title": "Chuttamallle",
+      "artist": "Anirudh",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Chuttamalle.mp3",
+      "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTExMVFRUWFhcXFhgXGBcXGBgVFxgXFhcZGBcYHSggGBolGxUXITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGyslHx8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAQIDBAYAB//EAEIQAAIBAgQDBgIHBQcDBQAAAAECEQADBBIhMQVBUQYTImFxgZGhMkJSscHR8BQjYnLhBxUzgpKy8UOi0hYkNJPi/8QAGgEAAwEBAQEAAAAAAAAAAAAAAgMEAQUABv/EACkRAAICAgICAgICAQUAAAAAAAABAhEDEiExBFETQQUiYXGBFJGxwdH/2gAMAwEAAhEDEQA/AL+IxBRSxLEDkNSfQUIwPai3eJFpb7kCTC7D/V8qu9pMX3NguFzEFQBMbmN/egPZHiuEVrly6P2e455FmQrvIEEAyefrSs+R4sLnGLk/qv8Azv8A2HeP4/y92HuF8WXEZsneArlkOCp8QJBg8tKIDN1PxoZwXiQxN7EMplFyKhyhSVBumfpEmZmTG8QIo1lpmNuUU2qb+iXPFQm4+iGW6n412vU/GpTFJFMSJnIaAep+NZzjnaVrYIsgtG76wOsdaTtXxMqe5V8ugLNz1nw/jWMu3tVAJbTXTKPPnrQSkV4cFraQWftJiHP+MVGsalfiRz+NRp2hxB0F5w2/0jHzPyoPduZvDB089vjUbanKOW7KDtHMfjWWUaR9Gy4f2wu5iLuoA81M+UDnWuwmIF1FdGJDAEa9eR6GvImuyQJhlGh6/rWtT2H4vlvi0dFueHL0cA5SD0J5UaZPmwqrRugp6mnBT1Pxq73dL3VERUUwD1PxpQD1NXRYp3cV40owep+NOAPU/Gros13c1hpSy",
+      "genre": "Romantic"
+    }
+  ],
+  "DefaultSongslist": [
+    {
+      "id": "1",
+      "title": "Chuttamalle",
+      "artist": "Anirudh",
+      "genre": "Tamil",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Chuttamalle.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Chuttamalle.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Kesariya",
+      "artist": "Arijit Singh",
+      "genre": "Bollywood",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Kesariya.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Kesariya.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Naatu Naatu",
+      "artist": "Rahul Sipligunj, Kaala Bhairava",
+      "genre": "Telugu",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/NaatuNaatu.mp3",
+      "imageUrl": "https://pagalworlds.com/images/NaatuNaatu.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Pasoori",
+      "artist": "Ali Sethi, Shae Gill",
+      "genre": "Indie",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Pasoori.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Pasoori.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Tum Tum",
+      "artist": "Sid Sriram",
+      "genre": "Tamil",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/TumTum.mp3",
+      "imageUrl": "https://pagalworlds.com/images/TumTum.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Lehra Do",
+      "artist": "Arijit Singh",
+      "genre": "Bollywood",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/LehraDo.mp3",
+      "imageUrl": "https://pagalworlds.com/images/LehraDo.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Oo Antava",
+      "artist": "Indravathi Chauhan",
+      "genre": "Telugu",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/OoAntava.mp3",
+      "imageUrl": "https://pagalworlds.com/images/OoAntava.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Vaaste",
+      "artist": "Dhvani Bhanushali",
+      "genre": "Pop",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Vaaste.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Vaaste.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Jai Shri Ram",
+      "artist": "Ajay-Atul",
+      "genre": "Devotional",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/JaiShriRam.mp3",
+      "imageUrl": "https://pagalworlds.com/images/JaiShriRam.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Teri Mitti",
+      "artist": "B Praak",
+      "genre": "Patriotic",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/TeriMitti.mp3",
+      "imageUrl": "https://pagalworlds.com/images/TeriMitti.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Apna Bana Le",
+      "artist": "Arijit Singh",
+      "genre": "Bollywood",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/ApnaBanaLe.mp3",
+      "imageUrl": "https://pagalworlds.com/images/ApnaBanaLe.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Ghungroo",
+      "artist": "Arijit Singh",
+      "genre": "Bollywood",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Ghungroo.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Ghungroo.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Kar Har Maidaan Fateh",
+      "artist": "Sukhwinder Singh",
+      "genre": "Motivational",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/KarHarMaidaanFateh.mp3",
+      "imageUrl": "https://pagalworlds.com/images/KarHarMaidaanFateh.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Srivalli",
+      "artist": "Sid Sriram",
+      "genre": "Telugu",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Srivalli.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Srivalli.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Bijli",
+      "artist": "Harrdy Sandhu",
+      "genre": "Punjabi",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Bijli.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Bijli.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Believer",
+      "artist": "Imagine Dragons",
+      "genre": "Rock",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Believer.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Believer.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Heat Waves",
+      "artist": "Glass Animals",
+      "genre": "Pop",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/HeatWaves.mp3",
+      "imageUrl": "https://pagalworlds.com/images/HeatWaves.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Ranjha",
+      "artist": "B Praak, Jasleen Royal",
+      "genre": "Bollywood",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Ranjha.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Ranjha.jpg"
+    },
+    {
+      "id": "19",
+      "title": "Zaalima",
+      "artist": "Arijit Singh",
+      "genre": "Bollywood",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/Zaalima.mp3",
+      "imageUrl": "https://pagalworlds.com/images/Zaalima.jpg"
+    },
+    {
+      "id": "20",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "genre": "Pop",
+      "url": "https://pagallworlds.com/wp-content/uploads/2024/08/ShapeOfYou.mp3",
+      "imageUrl": "https://pagalworlds.com/images/ShapeOfYou.jpg"
+    }
+  ]
 }
