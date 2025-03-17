@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import './search.css';
 import MusicCard from '../../COMPONENTS/CARDS/musicCard';
-import { songs, DefaultSongslist } from 'C:/Users/palem/OneDrive/Desktop/REACT/Music Application/MUSIC/db.json';
+// import { songs, DefaultSongslist } from '../../MUSIC/db.json';
 
 const SearchScreen = () => {
   const [query, setQuery] = useState(''); // Search query state
