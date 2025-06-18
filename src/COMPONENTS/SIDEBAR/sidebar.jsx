@@ -40,12 +40,12 @@ const Sidebar = () => {
       </div>
 
       {/* Signout Section */}
-      <div className="signout-section">
+      {/* <div className="signout-section">
         <NavLink to="/signout" className="menu-item">
           <FaSignOutAlt className="menu-icon" />
           <span>Sign Out</span>
         </NavLink>
-      </div>
+      </div> */}
     </div>
   );
 };
